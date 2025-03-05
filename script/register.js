@@ -7,7 +7,7 @@ $("#register-btn").click(()=>{
     const role = $("#role").val();
 
     console.log(email,password,name,role)
-xzxc
+
     $.ajax({
 
         url:"http://192.168.8.171:8080/api/v1/user/register",
