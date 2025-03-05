@@ -12,7 +12,7 @@ $("#btn").click(() => {
     }
 
     $.ajax({
-        url: "http://localhost:8080/api/v1/auth/authenticate",
+        url: "http://192.168.8.171:8080/api/v1/auth/authenticate",
         method: "POST",
         contentType: "application/json",
         data: JSON.stringify({
