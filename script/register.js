@@ -8,7 +8,7 @@ $("#register-btn").click(()=>{
 
     console.log(email,password,name,role)
 
-    $.ajax( {
+    $.ajax(  {
 
         url:"http://192.168.8.171:8080/api/v1/user/register",
         method:"POST",
